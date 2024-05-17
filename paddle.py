@@ -12,9 +12,9 @@ class Padle(Turtle):
         self.color("white")
 
     def move_up(self):
-        if 240 > self.ycor():
+        if 340 > self.ycor():
             self.sety(self.ycor() + 20)
 
     def move_down(self):
-        if self.ycor() > -240:
+        if self.ycor() > -340:
             self.sety(self.ycor() - 20)
